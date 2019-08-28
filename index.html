@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saimoon Azad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    
+<header>
+<div class="container">
+    <div class="contents">
+        <h2>SAIMOON AZAD</h2>
+        <h3>COMPUTER ENGINEER</h3>
+        <div class="item"><a class="scroll-to-about" href="#">About Me</a></div>
+        <div class="item"><a href="#">Resume </a></div>
+        <div class="item"><a href="#">Projects</a></div>        
+        <div class="arrow bounce"><span class = "item" style='font-size:25px;'>&#8595;</span></div>
+    </div>
+</div>
+</header>
+    
+<div class="about-me">
+    <a name="aboutMe"></a>
+    <div class="me">
+      <div style="padding-top: 30px;">
+             <img class="avatar" src="assets/me.png" alt="Avatar">
+          </div>
+          <h2>SAIMOON AZAD</h2>
+          <h3>COMPUTER ENGINEER</h3>
+      
+      </div>
+      <section class="About-Me">
+          <div class="pRow">
+             
+              
+                      <div class="column">
+            <h2 style="text-align: left; padding-left: 20px;">About Me</h2>
+            <p class="me-description">I am a 4th year Computer Engineering student graduating on November 2019. In the past 4 years, I have worked on and implemented a lot of software applications using both high and low level programming languages. This website is meant to showcase the projects I work on outside school or work.</p>
+            <p class="me-description" style="padding-top: 0">I am actively looking for full time position in a computer or software engineering role.</p>
+          </div>
+          <div class="column right" style="float:#bbb;">
+              <h2 class="contact-info">Contact</h2>
+              
+            <div class="me-description">
+             <ul>
+                 <li><a href="#"><i class="fa fa-github" style="font-size:24px"> Github</i></a></li>
+                <li><a href="#"><i class="fa fa-facebook-square" style="font-size:24px"> Facebook</i></a></li>
+                <li class="lastRow"><a href="#"><i class="fa fa-linkedin-square" style="font-size:24px"> LinkedIn</i></a></li>
+                <li><a href="#"><i class="fa fa-envelope" style="font-size:23px"> Email</i></a></li>
+              </ul>
+            </div>
+              
+          </div>
+          </div>
+      
+      </section>
+</div>
+    <script>
+        $('.scroll-to-about').click(function() {
+            $('html,body').animate({scrollTop: $('.About-Me').offset().top},1000);
+        });
+    </script>
+</body>
+
+</html>
+
+
